@@ -104,7 +104,7 @@ Fecha Fecha::operator+(int d){
         ddN = ddN % 31;
     }
     if(mm == 2 && ddN > 28){
-           mmN = 2 + ddN / 31;;
+           mmN = 2 + ddN / 28;;
            ddN = ddN % 28;
     }
     if((mm == 4 || mm == 6 || mm == 9 || mm == 11) && ddN > 30){
